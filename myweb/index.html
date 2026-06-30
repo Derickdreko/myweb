@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home — Derick Otieno</title>
+<meta name="description" content="Derick Otieno — Computer Science student, web developer and IT support specialist.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="home">
+<div class="loader"><div class="loader-logo">DO</div><div class="loader-text">LOADING PORTFOLIO…</div></div>
+<canvas id="particles"></canvas>
+<div class="scroll-progress"></div>
+<div class="cursor-dot"></div><div class="cursor-ring"></div>
+
+<nav class="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="logo"><span>DO</span> Derick Otieno</a>
+    <div class="nav-links">
+        <a href="index.html" data-page="home">Home</a>
+        <a href="about.html" data-page="about">About</a>
+        <a href="skills.html" data-page="skills">Skills</a>
+        <a href="projects.html" data-page="projects">Projects</a>
+        <a href="experience.html" data-page="experience">Experience</a>
+        <a href="education.html" data-page="education">Education</a>
+        <a href="services.html" data-page="services">Services</a>
+        <a href="testimonials.html" data-page="testimonials">Testimonials</a>
+        <a href="contact.html" data-page="contact">Contact</a>
+    </div>
+    <div class="nav-tools">
+      <button class="icon-btn" data-theme-toggle aria-label="Toggle theme">☾</button>
+      <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="hero-greet">// Hello, I'm</p>
+      <h1 class="hero-name">DERICK <span class="gradient">OTIENO</span></h1>
+      <p class="hero-role"><span data-typed='["Computer Science Student","Web Developer","UI/UX Enthusiast","IT Support Specialist","Problem Solver"]'></span><span class="cursor-blink">&nbsp;</span></p>
+      <p class="hero-desc">I build modern websites, untangle stubborn networks, and enjoy the moment a system finally does what it's supposed to. Based in Kenya, studying Computer Science, shipping things on the side.</p>
+      <div class="btn-row">
+        <a href="projects.html" class="btn primary">View Projects</a>
+        <a href="assets/Derick_Otieno_CV.pdf" class="btn ghost" data-confetti download>Download CV</a>
+        <a href="contact.html" class="btn ghost">Contact Me</a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com" target="_blank" rel="noopener" class="icon-btn" aria-label="GitHub">GH</a>
+        <a href="https://linkedin.com" target="_blank" rel="noopener" class="icon-btn" aria-label="LinkedIn">in</a>
+        <a href="mailto:derick.otieno@example.com" class="icon-btn" aria-label="Email">@</a>
+        <a href="https://instagram.com" target="_blank" rel="noopener" class="icon-btn" aria-label="Instagram">IG</a>
+      </div>
+    </div>
+    <div class="hero-photo-wrap">
+    <div class="hero-photo-ring"></div>
+
+    <div class="hero-photo">
+        <img src="images/profile.png" alt="Derick Otieno">
+    </div>
+</div>
+  </div>
+  <div class="scroll-indicator"><span class="line"></span>SCROLL</div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="statusbar reveal"><span><span class="dot"></span><b>online</b></span><span>page: home</span><span>local time: <span data-clock>--:--:--</span></span><span>uptime: 4+ semesters</span></div>
+    <div class="section-head reveal" style="margin-inline:auto; text-align:center;">
+      <p class="eyebrow" style="justify-content:center;">Try it</p>
+      <h2>A terminal, because why not</h2>
+      <p style="margin-inline:auto;">Type <b>help</b> to see what this thing can do.</p>
+    </div>
+    <div class="terminal reveal" style="max-width:700px; margin:0 auto;">
+      <div class="terminal-bar"><span></span><span></span><span></span><small>derick@portfolio — zsh</small></div>
+      <div class="terminal-body">
+        <div class="line"><span class="prompt">derick@portfolio</span><span class="path">:~$</span> welcome to my portfolio. type "help" to begin.</div>
+      </div>
+      <div class="terminal-bar" style="border-top:1px solid var(--border); border-bottom:none;">
+        <div class="terminal-input-row" style="width:100%;">
+          <span class="prompt">$</span><input type="text" placeholder="type a command…" autocomplete="off">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-head reveal">
+      <p class="eyebrow">By the numbers</p>
+      <h2>Fun statistics</h2>
+    </div>
+    <div class="counters">
+      <div class="counter-card glass reveal"><div class="counter-num" data-count="25" data-suffix="+">0</div><div class="counter-label">Projects</div></div>
+      <div class="counter-card glass reveal"><div class="counter-num" data-count="1000" data-suffix="+">0</div><div class="counter-label">Hours coding</div></div>
+      <div class="counter-card glass reveal"><div class="counter-num" data-count="15" data-suffix="+">0</div><div class="counter-label">Happy clients</div></div>
+      <div class="counter-card glass reveal"><div class="counter-num" data-count="10" data-suffix="+">0</div><div class="counter-label">Technologies</div></div>
+    </div>
+  </div>
+</section>
+
+<section style="padding-top:0;">
+  <div class="marquee-wrap">
+    <div class="marquee">
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Python</span><span>Git</span><span>GitHub</span><span>MySQL</span><span>Linux</span><span>VS Code</span>
+      <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>Python</span><span>Git</span><span>GitHub</span><span>MySQL</span><span>Linux</span><span>VS Code</span>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <a href="index.html" class="logo"><span>DO</span> Derick Otieno</a>
+        <p style="color:var(--text-muted); margin-top:1rem; max-width:320px; font-size:.92rem;">Computer Science student building thoughtful web experiences and keeping systems running, one ticket at a time.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Elsewhere</h4>
+        <ul>
+          <li><a href="https://github.com" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="mailto:derick.otieno@example.com">Email</a></li>
+          <li><a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Derick Otieno. All rights reserved.</span>
+      <span>Made with ❤ and a lot of coffee.</span>
+    </div>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Back to top">↑</button>
+<div class="lightbox">
+  <button class="lightbox-close">✕</button>
+  <div class="lightbox-box glass">
+    <div class="cert-thumb" style="aspect-ratio:1.4;"><span class="lightbox-title"></span></div>
+  </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
